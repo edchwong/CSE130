@@ -1,0 +1,16 @@
+{
+	"folders": [],
+	"settings": {
+		"files.associations": {
+			"stat.h": "c",
+			"connection.h": "c",
+			"in.h": "c",
+			"pthread.h": "c",
+			"getopt.h": "c",
+			"inet.h": "c",
+			"inttypes.h": "c",
+			"fcntl.h": "c"
+		},
+		"makefile.extensionOutputFolder": "./.vscode"
+	}
+}

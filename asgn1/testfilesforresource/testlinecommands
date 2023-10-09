@@ -1,0 +1,8 @@
+/* command line test calls
+//printf "GET /test.txt HTTP/1.1\r\nContent-Length: 12\r\n\r\nHello World!" | nc localhost 1234
+//curl http://localhost:1234/test.txt -v
+printf "PUT /testdir2/test HTTP/1.1\r\nContent-Length: 12\r\n\r\nHello World!" |nc -N localhost 1235
+curl -X PUT  --data-binary "uploasd.txt" http://localhost:1235/testdir2/test
+curl http://localhost:1236/test -v -o gettest
+curl -X APPEND -v -d "hello toad" localhost:1236/test
+*/

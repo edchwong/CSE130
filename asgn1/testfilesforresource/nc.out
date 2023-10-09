@@ -1,0 +1,5 @@
+
+output:24, buffer:GET /test.txt HTTP/1.1, 
+
+output:24, GET /test.txt HTTP/1.1
+token: (null)
